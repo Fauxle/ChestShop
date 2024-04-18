@@ -1,0 +1,13 @@
+name: Shop
+version: '$version'
+main: me.fauxle.cs.ShopPlugin
+api-version: '1.17'
+depend: [ DatabaseAPI,Economy ]
+commands:
+  shopinfo:
+    description: Displays more details about a ChestShop
+    usage: /<command>
+  createshop:
+    description: Creates a new ChestShop
+    usage: /<command> <amount> <buy price> <sell price>
+    aliases: [ shopcreate,cs ]
